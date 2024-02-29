@@ -6,3 +6,31 @@ if Vegetarian == "yes":
     if Vegan == "yes":
         if Gluten_free == "yes":
             print("Veggizz")
+    else:
+        if Vegan == "no":
+            if Gluten_free == "yes":
+                print("Pizza hut")
+                print("Veggizz")
+            else:
+                if Gluten_free == "no":
+                    print("Pizza hut")
+                    print("Italian Restaurant")
+                    print("Veggizz")
+else:
+    if Vegetarian == "no":
+        if Vegan == 'no':
+            if Gluten_free == 'no':
+                print("Meat House")
+                print("Pizza hut")
+                print("Italian Restaurant")
+                print("Veggizz")
+            else:
+                if Gluten_free == 'yes':
+                    print("Pizza hut")
+                    print("Veggizz")
+        if Vegan == 'yes':
+            if Gluten_free == 'no':
+                print("Veggizz")
+            else:
+                if Gluten_free == 'yes':
+                    print("Veggizz")
