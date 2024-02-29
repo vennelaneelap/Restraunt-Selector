@@ -1,0 +1,8 @@
+Vegetarian = input('vegetarian? (y/n)')
+Vegan = input('are you a vegan?(y/n)')
+Gluten_free = input('Is anyone in your party gluten-free?(y/n)')
+print("These are some of your choices:")
+if Vegetarian == "yes":
+    if Vegan == "yes":
+        if Gluten_free == "yes":
+            print("Veggizz")
